@@ -8,7 +8,7 @@ let [day, name] = line.split(' ');
 
 if(calendar.hasOwnProperty(day)){
 
-console.log(`Conflict on ${day}`);  
+console.log(`Conflict on ${day}!`);  
 
 
 } else {
