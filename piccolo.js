@@ -1,29 +1,29 @@
-function solve(arr){
-let parking = {}
+        function solve(arr){
+        let parking = {}
 
-    for(let line of arr){
+            for(let line of arr){
 
-let [direction, carNumber] = line.split(', ');
+        let [direction, carNumber] = line.split(', ');
 
-if (direction === 'IN'){
+        if (direction === 'IN'){
 
-    parking[carNumber] = 1;
-} else {
+            parking[carNumber] = 1;
+        } else {
 
-    delete parking[carNumber];
-}
-
-
-
-}
-return Object.keys(parking)
-.sort((a,b) => a.localeCompare(b))
-.join('\n')
+            delete parking[carNumber];
+        }
 
 
 
+        }
+        return Object.keys(parking)
+        .sort((a,b) => a.localeCompare(b))
+        .join('\n')
 
-    }
+
+
+
+            }
 
 
 
