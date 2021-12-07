@@ -6,7 +6,7 @@ let [day, name] = line.split(' ');
 
 if(obj.hasOwnProperty(day)){
 
-    console.log(`Conflict on ${day}`);
+    console.log(`Conflict on ${day}!`);
 } else {
 console.log(`Scheduled for ${day}`);
 obj[day] = name;
