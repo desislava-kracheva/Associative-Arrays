@@ -1,3 +1,4 @@
+//Решена е с Map(), защото в него се запазват стойностите по реда в който влизат,докато в обект числата минават отпред.
 function solveForSecondTime (input){
 let arr = input.toLowerCase().split(' ');
 
@@ -15,14 +16,6 @@ for(let word of arr){
 }
 let keys = Array.from(obj.keys()).filter(x => obj.get(x) %2 !== 0)
 console.log(keys.join(' '));
-
-
-
-
-
-
-
-
 
 }
 
