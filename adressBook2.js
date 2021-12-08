@@ -1,5 +1,6 @@
 // Judge - 40/100 
- solveSecondTime(arr){
+function solveSecondTime(arr){
+
     let obj = {};
     
     for(let line of arr){
@@ -18,7 +19,7 @@
     
     
     
-    
+ 
     }
 
 solveSecondTime(['Tim:Doe Crossing',
