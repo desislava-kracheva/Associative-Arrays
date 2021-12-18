@@ -9,7 +9,7 @@ qty = Number(qty);
 if(!obj.hasOwnProperty(item)){
     obj[item] = qty;
 } else {
-    obj[item] = qty;
+    obj[item] += qty;
 }
 
 

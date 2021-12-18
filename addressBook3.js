@@ -11,7 +11,7 @@ obj[name] = address;
 
 return Object.keys(obj).sort().forEach(key =>
     
-    console.log(`${key} => ${obj[key]}`));
+    console.log(`${key} -> ${obj[key]}`));
 
     
 
