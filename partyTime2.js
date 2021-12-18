@@ -35,8 +35,8 @@ if(isNaN(char)){
 
 console.log(Number(list['regular'].length) + Number(list['VIP'].length) );
 
-console.log(list['VIP'].join(''));
-console.log(list['regular'].join(''));
+console.log(list['VIP'].join('\n'));
+console.log(list['regular'].join('\n'));
   
 }
 
