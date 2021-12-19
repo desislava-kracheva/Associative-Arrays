@@ -19,7 +19,7 @@ let sorted = Object.entries(obj).sort((a,b) => b[1]-a[1] );
 
 sorted.forEach(kvp => {
 
-    console.log(`${kvp[0]} -> ${kvp[1]}`);
+    console.log(`${kvp[0]} - ${kvp[1]}`);
 })
 
 }
